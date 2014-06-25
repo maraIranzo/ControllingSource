@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Categoria" representedClassName="_Categoria" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="aProducto" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Producto" inverseName="aCategoria" inverseEntity="Producto" syncable="YES"/>
+    </entity>
+    <entity name="Producto" representedClassName="_Producto" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="aCategoria" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Categoria" inverseName="aProducto" inverseEntity="Categoria" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Categoria" positionX="-6048" positionY="-1665" width="128" height="73"/>
+        <element name="Producto" positionX="-5850" positionY="-1647" width="128" height="88"/>
+    </elements>
+</model>

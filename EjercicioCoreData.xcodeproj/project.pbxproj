@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4828CAC0195843E6001BCAF4 /* EjercicioCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4828CABE195843E6001BCAF4 /* EjercicioCoreData.xcdatamodeld */; };
+		4828CAC9195857D9001BCAF4 /* _Categoria.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828CAC8195857D9001BCAF4 /* _Categoria.m */; };
+		4828CACC195857DA001BCAF4 /* _Producto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828CACB195857DA001BCAF4 /* _Producto.m */; };
+		4828CAD119586580001BCAF4 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828CAD019586580001BCAF4 /* CoreDataTableViewController.m */; };
+		4828CAD419586AD3001BCAF4 /* TablaCategoriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828CAD319586AD3001BCAF4 /* TablaCategoriaViewController.m */; };
+		4828CADA1958736F001BCAF4 /* TableProductosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828CAD91958736F001BCAF4 /* TableProductosViewController.m */; };
+		4828CADD19588AEA001BCAF4 /* DetalleProductoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828CADC19588AEA001BCAF4 /* DetalleProductoViewController.m */; };
 		485F317119544C090059EA50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485F317019544C090059EA50 /* Foundation.framework */; };
 		485F317319544C090059EA50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485F317219544C090059EA50 /* CoreGraphics.framework */; };
 		485F317519544C090059EA50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485F317419544C090059EA50 /* UIKit.framework */; };
@@ -14,13 +21,17 @@
 		485F317D19544C090059EA50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 485F317C19544C090059EA50 /* main.m */; };
 		485F318119544C090059EA50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 485F318019544C090059EA50 /* AppDelegate.m */; };
 		485F318419544C090059EA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485F318219544C090059EA50 /* Main.storyboard */; };
-		485F318719544C090059EA50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485F318619544C090059EA50 /* ViewController.m */; };
 		485F318919544C090059EA50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485F318819544C090059EA50 /* Images.xcassets */; };
 		485F319019544C090059EA50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485F318F19544C090059EA50 /* XCTest.framework */; };
 		485F319119544C090059EA50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485F317019544C090059EA50 /* Foundation.framework */; };
 		485F319219544C090059EA50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485F317419544C090059EA50 /* UIKit.framework */; };
 		485F319A19544C090059EA50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 485F319819544C090059EA50 /* InfoPlist.strings */; };
 		485F319C19544C090059EA50 /* EjercicioCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 485F319B19544C090059EA50 /* EjercicioCoreDataTests.m */; };
+		485F31A619544C710059EA50 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485F31A519544C710059EA50 /* CoreData.framework */; };
+		48A5509E19583C3C001CB5FA /* Producto.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A5509D19583C3C001CB5FA /* Producto.m */; };
+		48A550A119583C60001CB5FA /* Categoria.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A550A019583C60001CB5FA /* Categoria.m */; };
+		48A56C08195B07B500023032 /* CoreDataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A56C07195B07B500023032 /* CoreDataSingleton.m */; };
+		5FC3FC7C39FA4A39AE89247B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A048494BFA245A399429963 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4828CABF195843E6001BCAF4 /* EjercicioCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EjercicioCoreData.xcdatamodel; sourceTree = "<group>"; };
+		4828CAC7195857D9001BCAF4 /* _Categoria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Categoria.h; path = EjercicioCoreData/model/_Categoria.h; sourceTree = "<group>"; };
+		4828CAC8195857D9001BCAF4 /* _Categoria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Categoria.m; path = EjercicioCoreData/model/_Categoria.m; sourceTree = "<group>"; };
+		4828CACA195857DA001BCAF4 /* _Producto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Producto.h; path = EjercicioCoreData/model/_Producto.h; sourceTree = "<group>"; };
+		4828CACB195857DA001BCAF4 /* _Producto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Producto.m; path = EjercicioCoreData/model/_Producto.m; sourceTree = "<group>"; };
+		4828CACF19586580001BCAF4 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		4828CAD019586580001BCAF4 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		4828CAD219586AD3001BCAF4 /* TablaCategoriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaCategoriaViewController.h; sourceTree = "<group>"; };
+		4828CAD319586AD3001BCAF4 /* TablaCategoriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaCategoriaViewController.m; sourceTree = "<group>"; };
+		4828CAD81958736F001BCAF4 /* TableProductosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableProductosViewController.h; sourceTree = "<group>"; };
+		4828CAD91958736F001BCAF4 /* TableProductosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableProductosViewController.m; sourceTree = "<group>"; };
+		4828CADB19588AEA001BCAF4 /* DetalleProductoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleProductoViewController.h; sourceTree = "<group>"; };
+		4828CADC19588AEA001BCAF4 /* DetalleProductoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleProductoViewController.m; sourceTree = "<group>"; };
 		485F316D19544C090059EA50 /* EjercicioCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjercicioCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485F317019544C090059EA50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		485F317219544C090059EA50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +69,21 @@
 		485F317F19544C090059EA50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		485F318019544C090059EA50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		485F318319544C090059EA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		485F318519544C090059EA50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		485F318619544C090059EA50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		485F318819544C090059EA50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		485F318E19544C090059EA50 /* EjercicioCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjercicioCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		485F318F19544C090059EA50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		485F319719544C090059EA50 /* EjercicioCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjercicioCoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		485F319919544C090059EA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		485F319B19544C090059EA50 /* EjercicioCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjercicioCoreDataTests.m; sourceTree = "<group>"; };
+		485F31A519544C710059EA50 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		48A5509C19583C3C001CB5FA /* Producto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Producto.h; sourceTree = "<group>"; };
+		48A5509D19583C3C001CB5FA /* Producto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Producto.m; sourceTree = "<group>"; };
+		48A5509F19583C60001CB5FA /* Categoria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categoria.h; sourceTree = "<group>"; };
+		48A550A019583C60001CB5FA /* Categoria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categoria.m; sourceTree = "<group>"; };
+		48A56C06195B07B500023032 /* CoreDataSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataSingleton.h; sourceTree = "<group>"; };
+		48A56C07195B07B500023032 /* CoreDataSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataSingleton.m; sourceTree = "<group>"; };
+		7A048494BFA245A399429963 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4C54E6F45E4DE68E34FE26 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485F31A619544C710059EA50 /* CoreData.framework in Frameworks */,
 				485F317319544C090059EA50 /* CoreGraphics.framework in Frameworks */,
 				485F317519544C090059EA50 /* UIKit.framework in Frameworks */,
 				485F317119544C090059EA50 /* Foundation.framework in Frameworks */,
+				5FC3FC7C39FA4A39AE89247B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,13 +112,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4828CADE19588AF5001BCAF4 /* modelo */ = {
+			isa = PBXGroup;
+			children = (
+				4828CACA195857DA001BCAF4 /* _Producto.h */,
+				4828CACB195857DA001BCAF4 /* _Producto.m */,
+				4828CAC7195857D9001BCAF4 /* _Categoria.h */,
+				4828CAC8195857D9001BCAF4 /* _Categoria.m */,
+				4828CABE195843E6001BCAF4 /* EjercicioCoreData.xcdatamodeld */,
+				48A5509C19583C3C001CB5FA /* Producto.h */,
+				48A5509D19583C3C001CB5FA /* Producto.m */,
+				48A5509F19583C60001CB5FA /* Categoria.h */,
+				48A550A019583C60001CB5FA /* Categoria.m */,
+			);
+			name = modelo;
+			sourceTree = "<group>";
+		};
 		485F316419544C090059EA50 = {
 			isa = PBXGroup;
 			children = (
+				4828CADE19588AF5001BCAF4 /* modelo */,
+				48A56C06195B07B500023032 /* CoreDataSingleton.h */,
+				48A56C07195B07B500023032 /* CoreDataSingleton.m */,
+				4828CACF19586580001BCAF4 /* CoreDataTableViewController.h */,
+				4828CAD019586580001BCAF4 /* CoreDataTableViewController.m */,
+				4828CAD219586AD3001BCAF4 /* TablaCategoriaViewController.h */,
+				4828CAD319586AD3001BCAF4 /* TablaCategoriaViewController.m */,
+				4828CAD81958736F001BCAF4 /* TableProductosViewController.h */,
+				4828CAD91958736F001BCAF4 /* TableProductosViewController.m */,
+				4828CADB19588AEA001BCAF4 /* DetalleProductoViewController.h */,
+				4828CADC19588AEA001BCAF4 /* DetalleProductoViewController.m */,
 				485F317619544C090059EA50 /* EjercicioCoreData */,
 				485F319519544C090059EA50 /* EjercicioCoreDataTests */,
 				485F316F19544C090059EA50 /* Frameworks */,
 				485F316E19544C090059EA50 /* Products */,
+				ED4C54E6F45E4DE68E34FE26 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +162,12 @@
 		485F316F19544C090059EA50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				485F31A519544C710059EA50 /* CoreData.framework */,
 				485F317019544C090059EA50 /* Foundation.framework */,
 				485F317219544C090059EA50 /* CoreGraphics.framework */,
 				485F317419544C090059EA50 /* UIKit.framework */,
 				485F318F19544C090059EA50 /* XCTest.framework */,
+				7A048494BFA245A399429963 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +178,6 @@
 				485F317F19544C090059EA50 /* AppDelegate.h */,
 				485F318019544C090059EA50 /* AppDelegate.m */,
 				485F318219544C090059EA50 /* Main.storyboard */,
-				485F318519544C090059EA50 /* ViewController.h */,
-				485F318619544C090059EA50 /* ViewController.m */,
 				485F318819544C090059EA50 /* Images.xcassets */,
 				485F317719544C090059EA50 /* Supporting Files */,
 			);
@@ -159,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 485F319F19544C090059EA50 /* Build configuration list for PBXNativeTarget "EjercicioCoreData" */;
 			buildPhases = (
+				628FAE1E54194A24844FD16D /* Check Pods Manifest.lock */,
 				485F316919544C090059EA50 /* Sources */,
 				485F316A19544C090059EA50 /* Frameworks */,
 				485F316B19544C090059EA50 /* Resources */,
+				E45AF1FD293049A69DB7CFED /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,14 +307,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		628FAE1E54194A24844FD16D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E45AF1FD293049A69DB7CFED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		485F316919544C090059EA50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485F318719544C090059EA50 /* ViewController.m in Sources */,
+				4828CADD19588AEA001BCAF4 /* DetalleProductoViewController.m in Sources */,
 				485F318119544C090059EA50 /* AppDelegate.m in Sources */,
+				48A5509E19583C3C001CB5FA /* Producto.m in Sources */,
+				4828CADA1958736F001BCAF4 /* TableProductosViewController.m in Sources */,
+				48A56C08195B07B500023032 /* CoreDataSingleton.m in Sources */,
+				4828CAD119586580001BCAF4 /* CoreDataTableViewController.m in Sources */,
+				48A550A119583C60001CB5FA /* Categoria.m in Sources */,
 				485F317D19544C090059EA50 /* main.m in Sources */,
+				4828CAC9195857D9001BCAF4 /* _Categoria.m in Sources */,
+				4828CACC195857DA001BCAF4 /* _Producto.m in Sources */,
+				4828CAD419586AD3001BCAF4 /* TablaCategoriaViewController.m in Sources */,
+				4828CAC0195843E6001BCAF4 /* EjercicioCoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +478,7 @@
 		};
 		485F31A019544C090059EA50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4C54E6F45E4DE68E34FE26 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +492,7 @@
 		};
 		485F31A119544C090059EA50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4C54E6F45E4DE68E34FE26 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +563,7 @@
 				485F31A119544C090059EA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		485F31A219544C090059EA50 /* Build configuration list for PBXNativeTarget "EjercicioCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -464,8 +572,22 @@
 				485F31A419544C090059EA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4828CABE195843E6001BCAF4 /* EjercicioCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4828CABF195843E6001BCAF4 /* EjercicioCoreData.xcdatamodel */,
+			);
+			currentVersion = 4828CABF195843E6001BCAF4 /* EjercicioCoreData.xcdatamodel */;
+			path = EjercicioCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 485F316519544C090059EA50 /* Project object */;
 }
