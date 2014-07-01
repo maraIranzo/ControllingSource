@@ -39,7 +39,7 @@
 
 
 
-//Un getter personalizado para la propiedad managedObjectContext donde el contexto solo se crea la primera vez, y en las siguientes invocaciones se obtiene del NSPersistentStoreCoordinator.
+
 - (NSManagedObjectContext *)managedObjectContext
 {
     if (_managedObjectContext != nil) {
@@ -54,20 +54,20 @@
     return _managedObjectContext;
 }
 
-//Un getter personalizado para la propiedad managedObjectModel que recupera el modelo de datos de nuestro fichero con extensión .xcdatamodeld, haciendo una comprobación previa para garantizar que la lectura a disco del fichero se haga una única vez.
+
 - (NSManagedObjectModel *)managedObjectModel
 {
     if (_managedObjectModel != nil) {
         return _managedObjectModel;
     }
     
-    ///------ modelo de datos con los
+    
     NSURL *modelURL = [[NSBundle mainBundle] URLForResource:_nombreModelo withExtension:@"momd"];
     _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     return _managedObjectModel;
 }
 
-//Un getter personalizado para la propiedad persistentStoreCoordinator que genera una única instancia de esta propiedad, y la inicializa al tipo NSSQLiteStoreType (SQLite).
+
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator
 {
     
@@ -98,16 +98,7 @@
 }
 
 
-//-- guardamos los datos en CORE DATA comprobando antes si han habido cambios en el contexto para asi mejorar el acceso
-/*
- Dicho código lo incluiremos en los siguientes métodos:
- applicationWillResignActive
- applicationDidEnterBackground
- applicationWillTerminate
- 
- De este modo, cada vez que el usuario salga de la app, o ésta se cierre por cualquier motivo, la información quedara guardada en Core Data.
- 
- */
+
 - (void)saveContext
 {
     NSError *error = nil;

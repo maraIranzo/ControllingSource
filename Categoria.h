@@ -12,5 +12,7 @@
 
 +(id)categoriaWithContext:(NSManagedObjectContext *)context;
 
++(NSFetchedResultsController *) get_NSFetchedResultsController_forCategories;
+
 
 @end

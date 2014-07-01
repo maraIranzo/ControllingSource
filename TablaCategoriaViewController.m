@@ -38,15 +38,8 @@
     [super viewWillAppear:animated];
     
     
-    NSFetchRequest *fetch = [NSFetchRequest fetchRequestWithEntityName:@"Categoria"];
+    self.fetchedResultsController = [Categoria get_NSFetchedResultsController_forCategories];
     
-    fetch.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"nombre" ascending:YES]];
-    
-    NSFetchedResultsController *results = [[NSFetchedResultsController alloc] initWithFetchRequest:fetch managedObjectContext:_managedObjectContext sectionNameKeyPath:nil cacheName:nil];
-    
-    self.fetchedResultsController = results;
-    
-
     
 }
 

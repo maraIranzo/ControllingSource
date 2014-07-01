@@ -7,6 +7,7 @@
 //
 
 #import "Categoria.h"
+#import "CoreDataSingleton.h"
 
 @implementation Categoria
 
@@ -19,6 +20,13 @@
     return cat;
 }
 
-
++(NSFetchedResultsController *) get_NSFetchedResultsController_forCategories{
+    
+    NSFetchRequest *fetch = [NSFetchRequest fetchRequestWithEntityName:@"Categoria"];
+    
+    fetch.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"nombre" ascending:YES]];
+    
+    return [[NSFetchedResultsController alloc] initWithFetchRequest:fetch managedObjectContext:[[CoreDataSingleton sharedInstance] managedObjectContext] sectionNameKeyPath:nil cacheName:nil];
+}
 
 @end
